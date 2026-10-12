@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "leftpad": { "version": "1.0.0" },
+    "npm": { "version": "10.0.0" }
+  }
+}

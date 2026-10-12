@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1B2C3D4E5F678901234501 /* PMPaneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234401 /* PMPaneApp.swift */; };
+		3A1B2C3D4E5F678901234502 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234402 /* AppModel.swift */; };
+		3A1B2C3D4E5F678901234503 /* SidebarSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234403 /* SidebarSection.swift */; };
+		3A1B2C3D4E5F678901234504 /* PackageFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234404 /* PackageFormatting.swift */; };
+		3A1B2C3D4E5F678901234505 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234405 /* ContentView.swift */; };
+		3A1B2C3D4E5F678901234506 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234406 /* SidebarView.swift */; };
+		3A1B2C3D4E5F678901234507 /* PackageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234407 /* PackageListView.swift */; };
+		3A1B2C3D4E5F678901234508 /* TapListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234408 /* TapListView.swift */; };
+		3A1B2C3D4E5F678901234509 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234409 /* InspectorView.swift */; };
+		3A1B2C3D4E5F67890123450A /* OutputDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F67890123440A /* OutputDrawerView.swift */; };
+		3A1B2C3D4E5F67890123450B /* ConfirmationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F67890123440B /* ConfirmationSheet.swift */; };
+		3A1B2C3D4E5F67890123450D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F67890123440D /* AppDelegate.swift */; };
+		3A1B2C3D4E5F67890123450E /* PackageListFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F67890123440E /* PackageListFilter.swift */; };
+		3A1B2C3D4E5F67890123450F /* PackageIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F67890123440F /* PackageIconView.swift */; };
+		3A1B2C3D4E5F678901234511 /* ContentToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234410 /* ContentToolbar.swift */; };
+		3A1B2C3D4E5F678901234512 /* RelationChipsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234411 /* RelationChipsSection.swift */; };
+		3A1B2C3D4E5F678901234513 /* AddTapSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234412 /* AddTapSheet.swift */; };
+		3A1B2C3D4E5F678901234514 /* TableLastColumnAutosize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234413 /* TableLastColumnAutosize.swift */; };
+		3A1B2C3D4E5F678901234515 /* AppLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234414 /* AppLayout.swift */; };
+		3A1B2C3D4E5F678901234517 /* SudoAskpass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234416 /* SudoAskpass.swift */; };
+		3A1B2C3D4E5F678901234519 /* SudoAskpassPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234418 /* SudoAskpassPrompt.swift */; };
+		3A1B2C3D4E5F67890123451A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1B2C3D4E5F678901234419 /* Assets.xcassets */; };
+		3A1B2C3D4E5F67890123450C /* PMPaneCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3A1B2C3D4E5F678901234601 /* PMPaneCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1B2C3D4E5F678901234301 /* PM Pane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PM Pane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1B2C3D4E5F678901234401 /* PMPaneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMPaneApp.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234402 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234403 /* SidebarSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarSection.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234404 /* PackageFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageFormatting.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234406 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234407 /* PackageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListView.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234408 /* TapListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapListView.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234409 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F67890123440A /* OutputDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputDrawerView.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F67890123440B /* ConfirmationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationSheet.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F67890123440C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1B2C3D4E5F67890123440D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F67890123440E /* PackageListFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListFilter.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F67890123440F /* PackageIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageIconView.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234410 /* ContentToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentToolbar.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234411 /* RelationChipsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationChipsSection.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234412 /* AddTapSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTapSheet.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234413 /* TableLastColumnAutosize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableLastColumnAutosize.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234414 /* AppLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLayout.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234416 /* SudoAskpass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoAskpass.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234418 /* SudoAskpassPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoAskpassPrompt.swift; sourceTree = "<group>"; };
+		3A1B2C3D4E5F678901234419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1B2C3D4E5F678901234201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1B2C3D4E5F67890123450C /* PMPaneCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1B2C3D4E5F678901234101 = {
+			isa = PBXGroup;
+			children = (
+				3A1B2C3D4E5F678901234102 /* App */,
+				3A1B2C3D4E5F678901234103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1B2C3D4E5F678901234102 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B2C3D4E5F678901234401 /* PMPaneApp.swift */,
+				3A1B2C3D4E5F67890123440D /* AppDelegate.swift */,
+				3A1B2C3D4E5F678901234402 /* AppModel.swift */,
+				3A1B2C3D4E5F678901234403 /* SidebarSection.swift */,
+				3A1B2C3D4E5F678901234404 /* PackageFormatting.swift */,
+				3A1B2C3D4E5F678901234405 /* ContentView.swift */,
+				3A1B2C3D4E5F678901234414 /* AppLayout.swift */,
+				3A1B2C3D4E5F678901234406 /* SidebarView.swift */,
+				3A1B2C3D4E5F678901234407 /* PackageListView.swift */,
+				3A1B2C3D4E5F67890123440E /* PackageListFilter.swift */,
+				3A1B2C3D4E5F67890123440F /* PackageIconView.swift */,
+				3A1B2C3D4E5F678901234410 /* ContentToolbar.swift */,
+				3A1B2C3D4E5F678901234411 /* RelationChipsSection.swift */,
+				3A1B2C3D4E5F678901234408 /* TapListView.swift */,
+				3A1B2C3D4E5F678901234409 /* InspectorView.swift */,
+				3A1B2C3D4E5F67890123440A /* OutputDrawerView.swift */,
+				3A1B2C3D4E5F67890123440B /* ConfirmationSheet.swift */,
+				3A1B2C3D4E5F678901234412 /* AddTapSheet.swift */,
+				3A1B2C3D4E5F678901234413 /* TableLastColumnAutosize.swift */,
+				3A1B2C3D4E5F678901234416 /* SudoAskpass.swift */,
+				3A1B2C3D4E5F678901234418 /* SudoAskpassPrompt.swift */,
+				3A1B2C3D4E5F678901234419 /* Assets.xcassets */,
+				3A1B2C3D4E5F67890123440C /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3A1B2C3D4E5F678901234103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B2C3D4E5F678901234301 /* PM Pane.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1B2C3D4E5F678901234001 /* PM Pane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1B2C3D4E5F678901234801 /* Build configuration list for PBXNativeTarget "PM Pane" */;
+			buildPhases = (
+				3A1B2C3D4E5F678901234200 /* Sources */,
+				3A1B2C3D4E5F678901234201 /* Frameworks */,
+				3A1B2C3D4E5F678901234202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PM Pane";
+			packageProductDependencies = (
+				3A1B2C3D4E5F678901234601 /* PMPaneCore */,
+			);
+			productName = "PM Pane";
+			productReference = 3A1B2C3D4E5F678901234301 /* PM Pane.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1B2C3D4E5F678901234100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3A1B2C3D4E5F678901234001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3A1B2C3D4E5F678901234701 /* Build configuration list for PBXProject "PM Pane" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A1B2C3D4E5F678901234101;
+			packageReferences = (
+				3A1B2C3D4E5F678901234510 /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = 3A1B2C3D4E5F678901234103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1B2C3D4E5F678901234001 /* PM Pane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1B2C3D4E5F678901234202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1B2C3D4E5F67890123451A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1B2C3D4E5F678901234200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1B2C3D4E5F678901234501 /* PMPaneApp.swift in Sources */,
+				3A1B2C3D4E5F678901234502 /* AppModel.swift in Sources */,
+				3A1B2C3D4E5F678901234503 /* SidebarSection.swift in Sources */,
+				3A1B2C3D4E5F678901234504 /* PackageFormatting.swift in Sources */,
+				3A1B2C3D4E5F678901234505 /* ContentView.swift in Sources */,
+				3A1B2C3D4E5F678901234506 /* SidebarView.swift in Sources */,
+				3A1B2C3D4E5F678901234507 /* PackageListView.swift in Sources */,
+				3A1B2C3D4E5F678901234508 /* TapListView.swift in Sources */,
+				3A1B2C3D4E5F678901234509 /* InspectorView.swift in Sources */,
+				3A1B2C3D4E5F67890123450A /* OutputDrawerView.swift in Sources */,
+				3A1B2C3D4E5F67890123450B /* ConfirmationSheet.swift in Sources */,
+				3A1B2C3D4E5F67890123450D /* AppDelegate.swift in Sources */,
+				3A1B2C3D4E5F67890123450E /* PackageListFilter.swift in Sources */,
+				3A1B2C3D4E5F67890123450F /* PackageIconView.swift in Sources */,
+				3A1B2C3D4E5F678901234511 /* ContentToolbar.swift in Sources */,
+				3A1B2C3D4E5F678901234512 /* RelationChipsSection.swift in Sources */,
+				3A1B2C3D4E5F678901234513 /* AddTapSheet.swift in Sources */,
+				3A1B2C3D4E5F678901234514 /* TableLastColumnAutosize.swift in Sources */,
+				3A1B2C3D4E5F678901234515 /* AppLayout.swift in Sources */,
+				3A1B2C3D4E5F678901234517 /* SudoAskpass.swift in Sources */,
+				3A1B2C3D4E5F678901234519 /* SudoAskpassPrompt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A1B2C3D4E5F678901234901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A1B2C3D4E5F678901234902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3A1B2C3D4E5F678901234903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.pmpane.PMPane;
+				PRODUCT_NAME = "PM Pane";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		3A1B2C3D4E5F678901234904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.pmpane.PMPane;
+				PRODUCT_NAME = "PM Pane";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1B2C3D4E5F678901234701 /* Build configuration list for PBXProject "PM Pane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1B2C3D4E5F678901234901 /* Debug */,
+				3A1B2C3D4E5F678901234902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1B2C3D4E5F678901234801 /* Build configuration list for PBXNativeTarget "PM Pane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1B2C3D4E5F678901234903 /* Debug */,
+				3A1B2C3D4E5F678901234904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3A1B2C3D4E5F678901234510 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A1B2C3D4E5F678901234601 /* PMPaneCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PMPaneCore;
+			package = 3A1B2C3D4E5F678901234510 /* XCLocalSwiftPackageReference ".." */;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3A1B2C3D4E5F678901234100 /* Project object */;
+}

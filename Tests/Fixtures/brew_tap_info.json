@@ -1,0 +1,39 @@
+[
+  {
+    "name": "homebrew/core",
+    "official": true,
+    "trusted": true,
+    "remote": "https://github.com/Homebrew/homebrew-core",
+    "formula_names": ["wget", "libpng"],
+    "cask_tokens": []
+  },
+  {
+    "name": "homebrew/cask",
+    "official": true,
+    "trusted": true,
+    "formula_names": [],
+    "cask_tokens": ["firefox", "plaincask"]
+  },
+  {
+    "name": "anomalyco/tap",
+    "official": false,
+    "trusted": false,
+    "remote": "https://example.com/anomalyco/tap",
+    "formula_names": ["opencode"],
+    "cask_tokens": []
+  },
+  {
+    "name": "user/trustedtap",
+    "official": false,
+    "trusted": false,
+    "formula_names": ["trustedtapformula"],
+    "cask_tokens": []
+  },
+  {
+    "name": "shadow/tap",
+    "official": false,
+    "trusted": false,
+    "formula_names": ["shadowpkg"],
+    "cask_tokens": []
+  }
+]

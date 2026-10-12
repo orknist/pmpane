@@ -1,0 +1,101 @@
+{
+  "formulae": [
+    {
+      "name": "wget",
+      "full_name": "wget",
+      "tap": "homebrew/core",
+      "desc": "Internet file retriever",
+      "homepage": "https://www.gnu.org/software/wget/",
+      "pinned": false,
+      "dependencies": ["libpng"],
+      "installed": [
+        { "version": "1.24.5", "installed_on_request": true }
+      ]
+    },
+    {
+      "name": "libpng",
+      "full_name": "libpng",
+      "tap": "homebrew/core",
+      "desc": "PNG library",
+      "pinned": false,
+      "dependencies": [],
+      "installed": [
+        { "version": "1.6.44", "installed_on_request": false }
+      ]
+    },
+    {
+      "name": "pinnedpkg",
+      "full_name": "pinnedpkg",
+      "tap": "homebrew/core",
+      "desc": "Pinned formula",
+      "pinned": true,
+      "installed": [
+        { "version": "1.0.0", "installed_on_request": true }
+      ]
+    },
+    {
+      "name": "opencode",
+      "full_name": "anomalyco/tap/opencode",
+      "tap": "anomalyco/tap",
+      "desc": "Item trusted formula",
+      "pinned": false,
+      "installed": [
+        { "version": "0.1.0", "installed_on_request": true }
+      ]
+    },
+    {
+      "name": "lumimax-cli",
+      "full_name": "joowonoil/lumimax/lumimax-cli",
+      "tap": "joowonoil/lumimax",
+      "desc": "Stale tap formula",
+      "pinned": false,
+      "installed": [
+        { "version": "1.0.0", "installed_on_request": true }
+      ]
+    },
+    {
+      "name": "trustedtapformula",
+      "full_name": "user/trustedtap/trustedtapformula",
+      "tap": "user/trustedtap",
+      "desc": "Whole tap trusted",
+      "pinned": false,
+      "installed": [
+        { "version": "2.0.0", "installed_on_request": true }
+      ]
+    },
+    {
+      "name": "shadowpkg",
+      "full_name": "shadow/tap/shadowpkg",
+      "tap": "shadow/tap",
+      "desc": "Untrusted third party",
+      "pinned": false,
+      "installed": [
+        { "version": "0.9.0", "installed_on_request": true }
+      ]
+    }
+  ],
+  "casks": [
+    {
+      "token": "firefox",
+      "full_token": "firefox",
+      "tap": "homebrew/cask",
+      "desc": "Web browser",
+      "name": ["Mozilla Firefox"],
+      "version": "131.0",
+      "installed": "131.0",
+      "auto_updates": true,
+      "pinned": false
+    },
+    {
+      "token": "plaincask",
+      "full_token": "plaincask",
+      "tap": "homebrew/cask",
+      "desc": "Plain outdated cask",
+      "name": ["Plain Cask"],
+      "version": "1.0.0",
+      "installed": "1.0.0",
+      "auto_updates": false,
+      "pinned": false
+    }
+  ]
+}

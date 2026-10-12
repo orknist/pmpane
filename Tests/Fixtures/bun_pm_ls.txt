@@ -1,0 +1,4 @@
+/Users/demo/.bun/install/global node_modules
+├── @sindresorhus/is@5.0.0
+├── cowsay@1.5.0
+└── leftpad@0.0.0

@@ -1,0 +1,6 @@
+{
+  "taps": ["user/trustedtap", "joowonoil/lumimax"],
+  "formulae": ["anomalyco/tap/opencode"],
+  "casks": [],
+  "commands": []
+}

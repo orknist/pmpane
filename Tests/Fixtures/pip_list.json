@@ -1,0 +1,4 @@
+[
+  { "name": "requests", "version": "2.31.0" },
+  { "name": "urllib3", "version": "2.0.0" }
+]

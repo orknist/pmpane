@@ -1,0 +1,8 @@
+ruff v0.8.0 [required: ==0.8.0]
+- ruff
+httpie v3.2.3
+- http
+- httpie
+- https
+ty v0.0.1a6
+- ty
