@@ -99,3 +99,7 @@ The Dock / Finder icon comes from `App/Assets.xcassets/AppIcon.appiconset` (wire
 - uv is discovered from Homebrew / `/usr/local` / MacPorts, then `~/.local/bin` and `~/.cargo/bin`. Only tools installed via `uv tool` are listed (not `uv pip` / project environments). Tools installed with a version pin (`==` / range) show as **Pinned**; **Upgrade anyway** runs `uv tool install name@latest` (clears the pin). Unpinned tools use `uv tool upgrade`.
 - bun is discovered from Homebrew / `/usr/local` / MacPorts, then `~/.bun/bin`. Only global packages (`bun pm ls --global`) are listed. Prefer installing the bun binary with Homebrew (not `npm i -g bun`). Range-held globals (Update == Current, Latest newer) show as **Pinned**; **Upgrade anyway** / normal upgrades use `bun update --global --latest`.
 - Sparkle, Mac App Store, and GitHub Releases are not implemented yet.
+
+## License
+
+[MIT](LICENSE)
