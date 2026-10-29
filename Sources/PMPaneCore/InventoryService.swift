@@ -453,6 +453,11 @@ public struct InventoryService: Sendable {
                 return SourceScanResult(source: .bun, packages: pkgs, tool: tool)
             }
             let pkgs = try BunParser.packages(listText: listText, outdatedText: "")
+            // No global lockfile yet means "nothing outdated", not a user-facing failure.
+            // `bun pm ls --global` can succeed with 0 packages while `outdated --global` still exits non-zero.
+            if BunParser.isMissingLockfileError(outdated.stderr) {
+                return SourceScanResult(source: .bun, packages: pkgs, tool: tool)
+            }
             return SourceScanResult(
                 source: .bun,
                 packages: pkgs,

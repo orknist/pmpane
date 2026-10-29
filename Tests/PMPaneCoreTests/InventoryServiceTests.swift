@@ -192,11 +192,16 @@ import PMPaneCore
     }
 
     @Test func bunMissingLockfileIsNotAWarning() {
-        let stderr = """
+        let listStderr = """
         error: missing lockfile, nothing to list
         note: run 'bun install' first
         """
-        #expect(BunParser.isMissingLockfileError(stderr))
+        let outdatedStderr = """
+        error: missing lockfile, nothing outdated
+        note: run 'bun install' first
+        """
+        #expect(BunParser.isMissingLockfileError(listStderr))
+        #expect(BunParser.isMissingLockfileError(outdatedStderr))
         #expect(!BunParser.isMissingLockfileError("bun pm ls --global failed: permission denied"))
     }
 
